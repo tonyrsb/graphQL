@@ -10,7 +10,7 @@ const schema = require('../data/count_female_alive_schema.json');
 const { graphql } = require('../page/graphql_page');
 
 const testCase = {
-	describe: 'Question Test3 Point 1 | Count Female Characters with Alive Status',
+	describe: 'Count Female Characters with Alive Status',
 	describePositive: 'Positive Test Case',
 	describeNegative: 'Negative Test Case',
 	positive: {
