@@ -1,0 +1,11 @@
+{
+    "successOK":{
+        "codeNumber": 200,
+        "codeMessage": "OK"
+    },
+    "notFound":{
+        "codeNumber": 200,
+        "codeMessage": "OK",
+        "message": "404: Not Found"
+    }
+}

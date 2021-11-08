@@ -1,0 +1,84 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "required": [
+        "data"
+    ],
+    "properties": {
+        "data": {
+            "$id": "#/properties/data",
+            "type": "object",
+            "required": [
+                "characters"
+            ],
+            "properties": {
+                "characters": {
+                    "$id": "#/properties/data/properties/characters",
+                    "type": "object",
+                    "required": [
+                        "info",
+                        "results"
+                    ],
+                    "properties": {
+                        "info": {
+                            "$id": "#/properties/data/properties/characters/properties/info",
+                            "type": "object",
+                            "required": [
+                                "count"
+                            ],
+                            "properties": {
+                                "count": {
+                                    "$id": "#/properties/data/properties/characters/properties/info/properties/count",
+                                    "type": "integer"
+                                }
+                            }
+                        },
+                        "results": {
+                            "$id": "#/properties/data/properties/characters/properties/results",
+                            "type": "array",
+                            "items": {
+                                "$id": "#/properties/data/properties/characters/properties/results/items",
+                                "anyOf": [
+                                    {
+                                        "$id": "#/properties/data/properties/characters/properties/results/items/anyOf/0",
+                                        "type": "object",
+                                        "required": [
+                                            "name",
+                                            "id",
+                                            "status",
+                                            "species",
+                                            "gender"
+                                        ],
+                                        "properties": {
+                                            "name": {
+                                                "$id": "#/properties/data/properties/characters/properties/results/items/anyOf/0/properties/name",
+                                                "type": "string"
+                                            },
+                                            "id": {
+                                                "$id": "#/properties/data/properties/characters/properties/results/items/anyOf/0/properties/id",
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "$id": "#/properties/data/properties/characters/properties/results/items/anyOf/0/properties/status",
+                                                "type": "string"
+                                            },
+                                            "species": {
+                                                "$id": "#/properties/data/properties/characters/properties/results/items/anyOf/0/properties/species",
+                                                "type": "string"
+                                            },
+                                            "gender": {
+                                                "$id": "#/properties/data/properties/characters/properties/results/items/anyOf/0/properties/gender",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
