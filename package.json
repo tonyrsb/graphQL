@@ -1,7 +1,7 @@
 {
     "name": "graphql-tony",
     "version": "1.0.0",
-    "description": "Ralali API automation test",
+    "description": "API automation test",
     "main": "index.js",
     "license": "ISC",
     "scripts": {
