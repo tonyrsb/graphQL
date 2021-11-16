@@ -9,7 +9,7 @@ const code = require('../helpers/status_code.json');
 const { graphql } = require('../page/graphql_page');
 
 const testCase = {
-	describe: 'Question Test3 Point 1 | Count Female Characters with Alive Status',
+	describe: 'Point 1 | Count Female Characters with Alive Status',
 	describePositive: 'Positive Test Case',
 	describeNegative: 'Negative Test Case',
 	positive: 'As an user, I can make sure that Characters Shmlangela Shmlobinson-Shmlower listed on Location and Episode Query'

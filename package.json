@@ -1,11 +1,11 @@
 {
     "name": "graphql-tony",
     "version": "1.0.0",
-    "description": "Ralali API automation test",
+    "description": "GraphQL API automation test",
     "main": "index.js",
     "license": "ISC",
     "scripts": {
-        "test-graphql": "./node_modules/mocha/bin/mocha ./test --recursive --reporter mochawesome --reporter-options reportDir=reports/rll-insurance-service/mochawesome/ --timeout 30000"
+        "test-graphql": "./node_modules/mocha/bin/mocha ./test --recursive --reporter mochawesome --reporter-options reportDir=reports/graphql/mochawesome/ --timeout 30000"
     },
     "husky": {
         "hooks": {
